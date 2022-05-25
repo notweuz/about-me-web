@@ -1,0 +1,48 @@
+body {
+    font-family: Montserrat;
+    background-color:rgb(32, 32, 38);
+    overflow-x: hidden;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    flex: auto;
+    margin-top: 10%;
+}
+
+.title .img {
+    transition: all 2s ease;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.title .img:hover {
+    filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+}
+
+.title h1 {
+    color: white;
+}
+
+.title h2 {
+    margin-top: -15px;
+}
+
+
+.info {
+    color: white;
+    /* width: 700px;
+    height: 200px; 
+    border-radius: 10px; */
+    text-align: center;
+    margin-top: -20px;
+}
+
+.info p {
+    color: white;
+    padding: 35px;
+    font-size: 40px;
+}
